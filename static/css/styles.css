@@ -41,6 +41,8 @@ body {
 	height: 120px;
 	background-color: var(--display);
 	border: 1px var(--white) solid;
+	text-align: end;
+	font-size: 30px;
 }
 
 .num-pad {
