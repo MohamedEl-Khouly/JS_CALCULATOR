@@ -33,7 +33,8 @@ function displayResult() {
 	resultDisplay.textContent = result;
 }
 
-function clickedBtn(e) {
+// 2. click button action
+function clickedBtn() {
 	const val = this.dataset.value;
 	switch (val) {
 		case 'clear':
